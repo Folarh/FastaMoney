@@ -1,4 +1,4 @@
-.card-partners {
+.card {
   display: flex;
   gap: 20px;
   background-color: #000;
@@ -7,25 +7,25 @@
   height: 200px;
 }
 
-.card-partners h3 {
+.card h3 {
   margin-bottom: 40px;
 }
 
-.card-partners p {
+.card p {
   cursor: pointer;
   color: #8f8da0;
 }
 
-.card-partners .card-partners-icon {
+.card .card_icon {
   align-self: flex-end;
 }
 
-.card-partners-icon img {
+.card_icon img {
   width: 50px;
 }
 
 @media all and (max-width: 768px) {
-  .card-partners {
+  .card {
     margin: 0 20px;
   }
 }

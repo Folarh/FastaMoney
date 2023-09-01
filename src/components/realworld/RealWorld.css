@@ -36,23 +36,18 @@
   margin-top: 30px;
 }
 
-/* .realworld_arrow img {
-  border: 1px solid #3c72fc;
-  padding: 20px;
-} */
-
 .realworld_meet .realworld_arrow img {
   border: 1px solid #3c72fc;
   padding: 20px;
 }
 
 @media all and (max-width: 768px) {
-  .realworld-card {
+  .realworld_card {
     display: flex;
     flex-direction: column;
   }
 
-  .realworld-meet .arrow {
+  .realworld_meet .realworld_arrow {
     margin: 30px 10px;
   }
 }

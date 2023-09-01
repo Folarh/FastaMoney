@@ -2,13 +2,13 @@ import "./Card.css";
 
 const Card = ({ header, text, icon }) => {
   return (
-    <div className="card-partners">
+    <div className="card">
       <div>
         <h3>{header}</h3>
         <p>{text}</p>
       </div>
 
-      <div className="card-partners-icon">
+      <div className="card_icon">
         <img src={icon} alt="" />
       </div>
     </div>

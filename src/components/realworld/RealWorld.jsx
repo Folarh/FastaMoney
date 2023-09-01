@@ -2,14 +2,11 @@
 import "./RealWorld.css";
 //components
 import Card from "../card/Card";
+import Cap from "../../assets/realworld.png";
 
 //image import
 import Arrowleft from "../../assets/arrowleft.png";
 import Arrowright from "../../assets/arrowright.png";
-
-import Cap from "../../assets/realworld.png";
-
-import React from "react";
 
 const RealWorld = () => {
   return (
