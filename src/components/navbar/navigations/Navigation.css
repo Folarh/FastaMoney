@@ -1,0 +1,39 @@
+.list_container {
+  display: flex;
+  gap: var(--gap-small);
+}
+
+.list_container li a {
+  color: var(--promary-white);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list_container li a:hover {
+  color: steelblue;
+}
+@media all and (max-width: 768px) {
+  .line {
+    display: none;
+  }
+  #toggle-on {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 20px;
+    background-color: grey;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    min-height: 100vh;
+    z-index: 100;
+  }
+
+  .list_container {
+    display: none;
+  }
+}

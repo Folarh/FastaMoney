@@ -1,0 +1,58 @@
+.realworld {
+  color: #fff;
+  background-color: #0f0d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.realworld_text {
+  text-align: center;
+}
+
+.realworld .realworld_text p {
+  color: #726f84;
+  margin: 20px 0;
+}
+
+.realworld_card {
+  display: flex;
+  gap: var(--gap-small);
+}
+
+.realworld_meet {
+  text-align: center;
+  font-weight: 600;
+}
+
+.realworld_meet p {
+  margin-top: 30px;
+}
+
+.realworld_meet .realworld_arrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+/* .realworld_arrow img {
+  border: 1px solid #3c72fc;
+  padding: 20px;
+} */
+
+.realworld_meet .realworld_arrow img {
+  border: 1px solid #3c72fc;
+  padding: 20px;
+}
+
+@media all and (max-width: 768px) {
+  .realworld-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .realworld-meet .arrow {
+    margin: 30px 10px;
+  }
+}

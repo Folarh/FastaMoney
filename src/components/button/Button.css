@@ -1,0 +1,20 @@
+.btn {
+  padding: 10px;
+  background-color: #3c72fc;
+  color: #fcfcfc;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #245ef2;
+}
+
+@media all and (max-width: 768px) {
+  .btn {
+    font-size: 16px;
+  }
+}

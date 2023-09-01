@@ -1,0 +1,10 @@
+.nav_help span,
+p {
+  color: var(--primary-white);
+}
+
+@media all and (max-width: 768px) {
+  .nav_help {
+    display: none;
+  }
+}

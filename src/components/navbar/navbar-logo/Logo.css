@@ -1,0 +1,17 @@
+.nav_logo {
+  display: flex;
+  gap: var(--gap-small);
+  align-items: center;
+}
+
+.nav_logo span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* @media all and (max-width: 768px) {
+  .line {
+    display: none;
+  }
+} */

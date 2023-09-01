@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary-grey: #474747;
+  --primary-white: #f1f1f1;
+  --gap-small: 20px;
+}
+
+.line {
+  height: 80px;
+}
+
+@media all and (max-width: 768px) {
+  .line {
+    display: none;
+  }
+}
