@@ -7,6 +7,34 @@
   justify-content: space-evenly;
 }
 
+.hey {
+  position: relative;
+}
+
+.look {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.business_growth {
+  padding: 40px;
+  width: 400px;
+  background-color: #fff;
+
+  box-shadow: 19px 10px 30px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.consult_solutions_con {
+  display: flex;
+  position: absolute;
+  left: 425px;
+  bottom: -50px;
+  box-shadow: 10px 10px 8px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 9px -3px rgba(0, 0, 0, 0.1);
+}
+
 @media all and (max-width: 768px) {
   .consult_solutions {
     display: flex;
@@ -15,6 +43,10 @@
   }
 
   .consult_solutions .image {
+    display: none;
+  }
+
+  .look {
     display: none;
   }
 }

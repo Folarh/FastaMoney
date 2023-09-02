@@ -7,6 +7,7 @@ import Business from "../../components/business/Business";
 import Faq from "../../components/faq/Faq";
 import Comments from "../../components/comments/Comments";
 import ConsultSolutions from "../../components/solutions/ConsultSolutions";
+import Rate from "../../components/rate/Rate";
 
 const Layout = () => {
   return (
@@ -19,6 +20,7 @@ const Layout = () => {
       <Faq />
       <Comments />
       <ConsultSolutions />
+      <Rate />
     </div>
   );
 };

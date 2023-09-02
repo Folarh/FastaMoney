@@ -1,0 +1,57 @@
+.rate {
+  padding: 50px;
+}
+
+.rate_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rate_result {
+  max-width: 400px;
+}
+
+.rate_one {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.rate_one img {
+  background-color: #ebf1ff;
+  padding: 10px;
+}
+
+.rate_one h2 {
+  margin-bottom: 20px;
+}
+
+.rate_one p {
+  color: #726f84;
+}
+
+.rate_info {
+  max-width: 400px;
+}
+
+.rate_text {
+  color: #726f84;
+  margin-bottom: 50px;
+}
+
+.rate_next img {
+  margin-right: 20px;
+}
+
+.rate_next span {
+  color: #726f84;
+}
+
+@media all and (max-width: 768px) {
+  .rate_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
