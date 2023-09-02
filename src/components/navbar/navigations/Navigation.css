@@ -23,10 +23,10 @@
     justify-content: space-evenly;
     margin: 0;
     padding: 20px;
-    background-color: grey;
+    background-color: var(--primary-grey);
     position: fixed;
     top: 60px;
-    left: 0;
+    right: 0;
     bottom: 0;
     width: 250px;
     min-height: 100vh;
