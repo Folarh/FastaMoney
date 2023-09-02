@@ -1,0 +1,20 @@
+.consult_solutions {
+  background-color: #07122dfa;
+  color: #fff;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media all and (max-width: 768px) {
+  .consult_solutions {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .consult_solutions .image {
+    display: none;
+  }
+}

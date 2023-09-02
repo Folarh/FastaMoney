@@ -6,6 +6,7 @@ import Studies from "../../components/studies/Studies";
 import Business from "../../components/business/Business";
 import Faq from "../../components/faq/Faq";
 import Comments from "../../components/comments/Comments";
+import ConsultSolutions from "../../components/solutions/ConsultSolutions";
 
 const Layout = () => {
   return (
@@ -17,6 +18,7 @@ const Layout = () => {
       <Business />
       <Faq />
       <Comments />
+      <ConsultSolutions />
     </div>
   );
 };
