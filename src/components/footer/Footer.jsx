@@ -31,7 +31,7 @@ const Footer = () => {
 
           <div className="footer_phone">
             <img src={call} alt="phone" />
-            <span>+234800000000000</span>
+            <span>+92 666 888 0000</span>
           </div>
 
           <div className="footer_email">
